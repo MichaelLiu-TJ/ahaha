@@ -1,0 +1,363 @@
+{
+  "RunType": "HTTP",
+  "Labels": "apitest-awe.volvo.com/vgcq/external/ve-emsp-findcharger?north_east_point=-80,-80\u0026south_west_point=-75,-75 , pt-vm",
+  "StartTime": "2023-09-05T08:43:36.490062308Z",
+  "RequestedQPS": "50",
+  "RequestedDuration": "1m0s",
+  "ActualQPS": 49.57648520892559,
+  "ActualDuration": 60512559278,
+  "NumThreads": 50,
+  "Version": "1.59.0",
+  "DurationHistogram": {
+    "Count": 3000,
+    "Min": 0.234418092,
+    "Max": 3.275356243,
+    "Sum": 1381.7957271439998,
+    "Avg": 0.4605985757146666,
+    "StdDev": 0.1558230884664542,
+    "Data": [
+      {
+        "Start": 0.234418092,
+        "End": 0.25,
+        "Percent": 0.26666666666666666,
+        "Count": 8
+      },
+      {
+        "Start": 0.25,
+        "End": 0.3,
+        "Percent": 4.766666666666667,
+        "Count": 135
+      },
+      {
+        "Start": 0.3,
+        "End": 0.35000000000000003,
+        "Percent": 11.733333333333333,
+        "Count": 209
+      },
+      {
+        "Start": 0.35000000000000003,
+        "End": 0.4,
+        "Percent": 25.733333333333334,
+        "Count": 420
+      },
+      {
+        "Start": 0.4,
+        "End": 0.45,
+        "Percent": 47.166666666666664,
+        "Count": 643
+      },
+      {
+        "Start": 0.45,
+        "End": 0.5,
+        "Percent": 81.16666666666667,
+        "Count": 1020
+      },
+      {
+        "Start": 0.5,
+        "End": 0.6,
+        "Percent": 95.9,
+        "Count": 442
+      },
+      {
+        "Start": 0.6,
+        "End": 0.7000000000000001,
+        "Percent": 97.33333333333333,
+        "Count": 43
+      },
+      {
+        "Start": 0.7000000000000001,
+        "End": 0.8,
+        "Percent": 97.83333333333333,
+        "Count": 15
+      },
+      {
+        "Start": 0.9,
+        "End": 1,
+        "Percent": 98.33333333333333,
+        "Count": 15
+      },
+      {
+        "Start": 1,
+        "End": 2,
+        "Percent": 99.93333333333334,
+        "Count": 48
+      },
+      {
+        "Start": 2,
+        "End": 3,
+        "Percent": 99.96666666666667,
+        "Count": 1
+      },
+      {
+        "Start": 3,
+        "End": 3.275356243,
+        "Percent": 100,
+        "Count": 1
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.45416666666666666
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.4909313725490196
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.5599547511312217
+      },
+      {
+        "Percentile": 99,
+        "Value": 1.4166666666666674
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 1.9791666666666679
+      }
+    ]
+  },
+  "ErrorsDurationHistogram": {
+    "Count": 0,
+    "Min": 0,
+    "Max": 0,
+    "Sum": 0,
+    "Avg": 0,
+    "StdDev": 0,
+    "Data": null
+  },
+  "Exactly": 0,
+  "Jitter": false,
+  "Uniform": false,
+  "NoCatchUp": false,
+  "RunID": 0,
+  "AccessLoggerInfo": "",
+  "ID": "2023-09-05-084335_apitest_awe_volvo_com_vgcq_external_ve_emsp_findcharger_north_east_point_80_80",
+  "RetCodes": {
+    "200": 3000
+  },
+  "IPCountMap": {
+    "20.86.200.135:443": 50
+  },
+  "Insecure": false,
+  "MTLS": false,
+  "CACert": "",
+  "Cert": "/home/volvoadmin/roaming-service-pf-test/certs/apigwtestawesvc.it.volvo.com.crt",
+  "Key": "",
+  "UnixDomainSocket": "",
+  "URL": "https://apitest-awe.volvo.com/vgcq/external/ve-emsp-findcharger?north_east_point=-80,-80\u0026south_west_point=-75,-75",
+  "NumConnections": 1,
+  "Compression": false,
+  "DisableFastClient": false,
+  "HTTP10": false,
+  "H2": false,
+  "DisableKeepAlive": false,
+  "AllowHalfClose": false,
+  "FollowRedirects": false,
+  "Resolve": "",
+  "HTTPReqTimeOut": 30000000000,
+  "UserCredentials": "",
+  "ContentType": "",
+  "Payload": "",
+  "MethodOverride": "",
+  "LogErrors": true,
+  "SequentialWarmup": false,
+  "ConnReuseRange": [
+    0,
+    0
+  ],
+  "NoResolveEachConn": false,
+  "Offset": 0,
+  "Resolution": 0.001,
+  "Sizes": {
+    "Count": 3000,
+    "Min": 52055,
+    "Max": 52086,
+    "Sum": 156177982,
+    "Avg": 52059.327333333335,
+    "StdDev": 5.934435064203669,
+    "Data": [
+      {
+        "Start": 52055,
+        "End": 52086,
+        "Percent": 100,
+        "Count": 3000
+      }
+    ]
+  },
+  "HeaderSizes": {
+    "Count": 3000,
+    "Min": 856,
+    "Max": 856,
+    "Sum": 2568000,
+    "Avg": 856,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 856,
+        "End": 856,
+        "Percent": 100,
+        "Count": 3000
+      }
+    ]
+  },
+  "Sockets": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "SocketCount": 50,
+  "ConnectionStats": {
+    "Count": 50,
+    "Min": 0.029782075,
+    "Max": 0.134603958,
+    "Sum": 4.160761461000001,
+    "Avg": 0.08321522922000002,
+    "StdDev": 0.031128983999574412,
+    "Data": [
+      {
+        "Start": 0.029782075,
+        "End": 0.03,
+        "Percent": 2,
+        "Count": 1
+      },
+      {
+        "Start": 0.03,
+        "End": 0.035,
+        "Percent": 6,
+        "Count": 2
+      },
+      {
+        "Start": 0.035,
+        "End": 0.04,
+        "Percent": 10,
+        "Count": 2
+      },
+      {
+        "Start": 0.04,
+        "End": 0.045,
+        "Percent": 14,
+        "Count": 2
+      },
+      {
+        "Start": 0.045,
+        "End": 0.05,
+        "Percent": 20,
+        "Count": 3
+      },
+      {
+        "Start": 0.05,
+        "End": 0.06,
+        "Percent": 28,
+        "Count": 4
+      },
+      {
+        "Start": 0.06,
+        "End": 0.07,
+        "Percent": 36,
+        "Count": 4
+      },
+      {
+        "Start": 0.07,
+        "End": 0.08,
+        "Percent": 48,
+        "Count": 6
+      },
+      {
+        "Start": 0.08,
+        "End": 0.09,
+        "Percent": 54,
+        "Count": 3
+      },
+      {
+        "Start": 0.09,
+        "End": 0.1,
+        "Percent": 64,
+        "Count": 5
+      },
+      {
+        "Start": 0.1,
+        "End": 0.12,
+        "Percent": 86,
+        "Count": 11
+      },
+      {
+        "Start": 0.12,
+        "End": 0.134603958,
+        "Percent": 100,
+        "Count": 7
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.08333333333333333
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.11
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.12417255942857143
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.13356081814285714
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.1344996440142857
+      }
+    ]
+  },
+  "AbortOn": 0
+}

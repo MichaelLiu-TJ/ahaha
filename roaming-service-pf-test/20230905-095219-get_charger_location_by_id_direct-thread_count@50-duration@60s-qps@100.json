@@ -1,0 +1,405 @@
+{
+  "RunType": "HTTP",
+  "Labels": "roaming-service-qa-eu.volvo.com/api/charging-location/5374 , pt-vm",
+  "StartTime": "2023-09-05T09:52:19.253562345Z",
+  "RequestedQPS": "100",
+  "RequestedDuration": "1m0s",
+  "ActualQPS": 99.80639907190964,
+  "ActualDuration": 60116385881,
+  "NumThreads": 50,
+  "Version": "1.59.0",
+  "DurationHistogram": {
+    "Count": 6000,
+    "Min": 0.017940608,
+    "Max": 0.354252539,
+    "Sum": 499.232047919,
+    "Avg": 0.08320534131983334,
+    "StdDev": 0.028406330992713457,
+    "Data": [
+      {
+        "Start": 0.017940608,
+        "End": 0.018000000000000002,
+        "Percent": 0.03333333333333333,
+        "Count": 2
+      },
+      {
+        "Start": 0.018000000000000002,
+        "End": 0.02,
+        "Percent": 0.06666666666666667,
+        "Count": 2
+      },
+      {
+        "Start": 0.02,
+        "End": 0.025,
+        "Percent": 0.55,
+        "Count": 29
+      },
+      {
+        "Start": 0.025,
+        "End": 0.03,
+        "Percent": 1.5,
+        "Count": 57
+      },
+      {
+        "Start": 0.03,
+        "End": 0.035,
+        "Percent": 2.75,
+        "Count": 75
+      },
+      {
+        "Start": 0.035,
+        "End": 0.04,
+        "Percent": 4.85,
+        "Count": 126
+      },
+      {
+        "Start": 0.04,
+        "End": 0.045,
+        "Percent": 7.716666666666667,
+        "Count": 172
+      },
+      {
+        "Start": 0.045,
+        "End": 0.05,
+        "Percent": 11.2,
+        "Count": 209
+      },
+      {
+        "Start": 0.05,
+        "End": 0.06,
+        "Percent": 19.766666666666666,
+        "Count": 514
+      },
+      {
+        "Start": 0.06,
+        "End": 0.07,
+        "Percent": 30.183333333333334,
+        "Count": 625
+      },
+      {
+        "Start": 0.07,
+        "End": 0.08,
+        "Percent": 44.35,
+        "Count": 850
+      },
+      {
+        "Start": 0.08,
+        "End": 0.09,
+        "Percent": 59.18333333333333,
+        "Count": 890
+      },
+      {
+        "Start": 0.09,
+        "End": 0.1,
+        "Percent": 76.4,
+        "Count": 1033
+      },
+      {
+        "Start": 0.1,
+        "End": 0.12,
+        "Percent": 95.48333333333333,
+        "Count": 1145
+      },
+      {
+        "Start": 0.12,
+        "End": 0.14,
+        "Percent": 97.63333333333334,
+        "Count": 129
+      },
+      {
+        "Start": 0.14,
+        "End": 0.16,
+        "Percent": 98.41666666666667,
+        "Count": 47
+      },
+      {
+        "Start": 0.16,
+        "End": 0.18,
+        "Percent": 99.06666666666666,
+        "Count": 39
+      },
+      {
+        "Start": 0.18,
+        "End": 0.2,
+        "Percent": 99.13333333333334,
+        "Count": 4
+      },
+      {
+        "Start": 0.2,
+        "End": 0.25,
+        "Percent": 99.81666666666666,
+        "Count": 41
+      },
+      {
+        "Start": 0.25,
+        "End": 0.3,
+        "Percent": 99.93333333333334,
+        "Count": 7
+      },
+      {
+        "Start": 0.3,
+        "End": 0.35000000000000003,
+        "Percent": 99.98333333333333,
+        "Count": 3
+      },
+      {
+        "Start": 0.35000000000000003,
+        "End": 0.354252539,
+        "Percent": 100,
+        "Count": 1
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.08380898876404494
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.09918683446272991
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.1142532751091703
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.17794871794871803
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.2857142857142875
+      }
+    ]
+  },
+  "ErrorsDurationHistogram": {
+    "Count": 0,
+    "Min": 0,
+    "Max": 0,
+    "Sum": 0,
+    "Avg": 0,
+    "StdDev": 0,
+    "Data": null
+  },
+  "Exactly": 0,
+  "Jitter": false,
+  "Uniform": false,
+  "NoCatchUp": false,
+  "RunID": 0,
+  "AccessLoggerInfo": "",
+  "ID": "2023-09-05-095219_roaming_service_qa_eu_volvo_com_api_charging_location_5374_pt_vm",
+  "RetCodes": {
+    "200": 6000
+  },
+  "IPCountMap": {
+    "20.50.2.91:443": 50
+  },
+  "Insecure": false,
+  "MTLS": false,
+  "CACert": "",
+  "Cert": "/home/volvoadmin/roaming-service-pf-test/certs/roaming-service-qa-eu.volvo.com.crt",
+  "Key": "",
+  "UnixDomainSocket": "",
+  "URL": "https://roaming-service-qa-eu.volvo.com/api/charging-location/5374",
+  "NumConnections": 1,
+  "Compression": false,
+  "DisableFastClient": false,
+  "HTTP10": false,
+  "H2": false,
+  "DisableKeepAlive": false,
+  "AllowHalfClose": false,
+  "FollowRedirects": false,
+  "Resolve": "",
+  "HTTPReqTimeOut": 30000000000,
+  "UserCredentials": "",
+  "ContentType": "",
+  "Payload": "",
+  "MethodOverride": "",
+  "LogErrors": true,
+  "SequentialWarmup": false,
+  "ConnReuseRange": [
+    0,
+    0
+  ],
+  "NoResolveEachConn": false,
+  "Offset": 0,
+  "Resolution": 0.001,
+  "Sizes": {
+    "Count": 6000,
+    "Min": 7147,
+    "Max": 7154,
+    "Sum": 42886046,
+    "Avg": 7147.674333333333,
+    "StdDev": 1.7603809880660866,
+    "Data": [
+      {
+        "Start": 7147,
+        "End": 7154,
+        "Percent": 100,
+        "Count": 6000
+      }
+    ]
+  },
+  "HeaderSizes": {
+    "Count": 6000,
+    "Min": 703,
+    "Max": 703,
+    "Sum": 4218000,
+    "Avg": 703,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 703,
+        "End": 703,
+        "Percent": 100,
+        "Count": 6000
+      }
+    ]
+  },
+  "Sockets": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "SocketCount": 50,
+  "ConnectionStats": {
+    "Count": 50,
+    "Min": 0.04194599,
+    "Max": 0.150212853,
+    "Sum": 4.8685592820000005,
+    "Avg": 0.09737118564000001,
+    "StdDev": 0.03213345702169152,
+    "Data": [
+      {
+        "Start": 0.04194599,
+        "End": 0.045,
+        "Percent": 2,
+        "Count": 1
+      },
+      {
+        "Start": 0.045,
+        "End": 0.05,
+        "Percent": 6,
+        "Count": 2
+      },
+      {
+        "Start": 0.05,
+        "End": 0.06,
+        "Percent": 14,
+        "Count": 4
+      },
+      {
+        "Start": 0.06,
+        "End": 0.07,
+        "Percent": 24,
+        "Count": 5
+      },
+      {
+        "Start": 0.07,
+        "End": 0.08,
+        "Percent": 36,
+        "Count": 6
+      },
+      {
+        "Start": 0.08,
+        "End": 0.09,
+        "Percent": 42,
+        "Count": 3
+      },
+      {
+        "Start": 0.09,
+        "End": 0.1,
+        "Percent": 56,
+        "Count": 7
+      },
+      {
+        "Start": 0.1,
+        "End": 0.12,
+        "Percent": 70,
+        "Count": 7
+      },
+      {
+        "Start": 0.12,
+        "End": 0.14,
+        "Percent": 88,
+        "Count": 9
+      },
+      {
+        "Start": 0.14,
+        "End": 0.150212853,
+        "Percent": 100,
+        "Count": 6
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.09571428571428571
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.12555555555555556
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.14170214216666668
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.14936178191666669
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.1501277458916667
+      }
+    ]
+  },
+  "AbortOn": 0
+}
